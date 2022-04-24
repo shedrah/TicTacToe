@@ -7,8 +7,7 @@ NUM_SAMPLES_TO_CONSIDER = 22050  # 1 sec
 """
 Module that uses trained model to get
 This is based on video series: https://www.youtube.com/watch?v=CA0PQS1Rj_4&list=PL-wATfeyAMNpCRQkKgtOZU_ykXc63oyzp
-by Valerio Velardo on 20211105,
-open source code at: https://github.com/musikalkemist/Deep-Learning-Audio-Application-From-Design-to-Deployment
+by Valerio Velardo
 """
 
 class _Keyword_Spotting_Service:
