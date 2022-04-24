@@ -6,8 +6,7 @@ import tensorflow.keras as keras
 """
 Module that sets up neural network settings and processes dataset
 This is based on video series: https://www.youtube.com/watch?v=CA0PQS1Rj_4&list=PL-wATfeyAMNpCRQkKgtOZU_ykXc63oyzp
-by Valerio Velardo on 20211105,
-open source code at: https://github.com/musikalkemist/Deep-Learning-Audio-Application-From-Design-to-Deployment
+by Valerio Velardo
 """
 
 DATA_PATH = "data.json"
