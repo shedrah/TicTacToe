@@ -22,15 +22,15 @@ def record_word():
     ready = True
     frames=[]
 
-    for i in range(0,int(RATE/CHUNK*RECORD_SECONDS)):
+    for i in range(0, int(RATE/CHUNK*RECORD_SECONDS)):
         data = stream.read(CHUNK)
         data_chunk = array('h', data)
         vol = max(data_chunk)
         if(vol>=200):
-            print("something said")
+            #print("something said")
             frames.append(data)
-        else:
-            print("nothing")
+        #else:
+            #print("nothing")
         print("\n")
 
     # end of recording
@@ -38,7 +38,7 @@ def record_word():
     stream.close()
     audio.terminate()
     # write to file
-    wavfile=wave.open(FILE_NAME,'wb')
+    wavfile=wave.open(FILE_NAME, 'wb')
     wavfile.setnchannels(CHANNELS)
     wavfile.setsampwidth(audio.get_sample_size(FORMAT))
     wavfile.setframerate(RATE)
