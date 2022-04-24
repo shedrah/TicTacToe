@@ -5,25 +5,8 @@ import json
 """
 Module that prepares dataset (extracts MFCC) to be able to be processed by neural network
 This is based on video series: https://www.youtube.com/watch?v=CA0PQS1Rj_4&list=PL-wATfeyAMNpCRQkKgtOZU_ykXc63oyzp
-by Valerio Velardo on 20211105,
-open source code at: https://github.com/musikalkemist/Deep-Learning-Audio-Application-From-Design-to-Deployment
-Citation for used dataset:
+by Valerio Velardo
 """
-_CITATION = """
-@article{speechcommandsv2,
-   author = {{Warden}, P.},
-    title = "{Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition}",
-  journal = {ArXiv e-prints},
-  archivePrefix = "arXiv",
-  eprint = {1804.03209},
-  primaryClass = "cs.CL",
-  keywords = {Computer Science - Computation and Language, Computer Science - Human-Computer Interaction},
-    year = 2018,
-    month = apr,
-    url = {https://arxiv.org/abs/1804.03209},
-}
-"""
-
 
 DATASET_PATH = "dataset"  # folder
 JSON_PATH = "data.json"  # folder
