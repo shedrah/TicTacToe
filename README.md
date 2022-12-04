@@ -1,5 +1,4 @@
-Tic tac toe game made in Python, with convolutional neural networks. Speech commands datasets taken from [Tensorflow database](http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz). Dataset was divided into smaller sets in order to create model that will recognize words in English.
-Application recognizes 6 keywords:
+Tic tac toe game made in Python, with convolutional neural networks. Big thanks to [Valerio Velardo](https://github.com/musikalkemist) and his Youtube video series. Speech commands datasets taken from [Tensorflow database](http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz). Dataset was divided into smaller sets in order to create model that will recognize words in English. Neural network bases on MFCC graphs for keywords comparisons. Application recognizes 6 keywords:
 - left
 - right
 - up
